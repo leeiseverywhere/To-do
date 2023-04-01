@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E5AEB12329D7FC2900E32865 /* To_doApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AEB12229D7FC2900E32865 /* To_doApp.swift */; };
-		E5AEB12529D7FC2900E32865 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AEB12429D7FC2900E32865 /* ContentView.swift */; };
+		E5AEB12529D7FC2900E32865 /* mainview.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AEB12429D7FC2900E32865 /* mainview.swift */; };
 		E5AEB12729D7FC2A00E32865 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5AEB12629D7FC2A00E32865 /* Assets.xcassets */; };
 		E5AEB12A29D7FC2A00E32865 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5AEB12929D7FC2A00E32865 /* Preview Assets.xcassets */; };
 		E5AEB13429D7FC2A00E32865 /* To_doTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AEB13329D7FC2A00E32865 /* To_doTests.swift */; };
@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		E5AEB11F29D7FC2900E32865 /* To-do.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "To-do.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5AEB12229D7FC2900E32865 /* To_doApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = To_doApp.swift; sourceTree = "<group>"; };
-		E5AEB12429D7FC2900E32865 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E5AEB12429D7FC2900E32865 /* mainview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainview.swift; sourceTree = "<group>"; };
 		E5AEB12629D7FC2A00E32865 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5AEB12929D7FC2A00E32865 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E5AEB12F29D7FC2A00E32865 /* To-doTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "To-doTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,7 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				E5AEB12229D7FC2900E32865 /* To_doApp.swift */,
-				E5AEB12429D7FC2900E32865 /* ContentView.swift */,
+				E5AEB12429D7FC2900E32865 /* mainview.swift */,
 				E5AEB12629D7FC2A00E32865 /* Assets.xcassets */,
 				E5AEB12829D7FC2A00E32865 /* Preview Content */,
 			);
@@ -257,7 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5AEB12529D7FC2900E32865 /* ContentView.swift in Sources */,
+				E5AEB12529D7FC2900E32865 /* mainview.swift in Sources */,
 				E5AEB12329D7FC2900E32865 /* To_doApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
