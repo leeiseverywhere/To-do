@@ -14,6 +14,7 @@
 		E5AEB13429D7FC2A00E32865 /* To_doTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AEB13329D7FC2A00E32865 /* To_doTests.swift */; };
 		E5AEB13E29D7FC2A00E32865 /* To_doUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AEB13D29D7FC2A00E32865 /* To_doUITests.swift */; };
 		E5AEB14029D7FC2A00E32865 /* To_doUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AEB13F29D7FC2A00E32865 /* To_doUITestsLaunchTests.swift */; };
+		E5AEB14D29D8021800E32865 /* Secondview.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AEB14C29D8021800E32865 /* Secondview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		E5AEB13929D7FC2A00E32865 /* To-doUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "To-doUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5AEB13D29D7FC2A00E32865 /* To_doUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = To_doUITests.swift; sourceTree = "<group>"; };
 		E5AEB13F29D7FC2A00E32865 /* To_doUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = To_doUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E5AEB14C29D8021800E32865 /* Secondview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secondview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				E5AEB12229D7FC2900E32865 /* To_doApp.swift */,
 				E5AEB12429D7FC2900E32865 /* mainview.swift */,
+				E5AEB14C29D8021800E32865 /* Secondview.swift */,
 				E5AEB12629D7FC2A00E32865 /* Assets.xcassets */,
 				E5AEB12829D7FC2A00E32865 /* Preview Content */,
 			);
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5AEB12529D7FC2900E32865 /* mainview.swift in Sources */,
+				E5AEB14D29D8021800E32865 /* Secondview.swift in Sources */,
 				E5AEB12329D7FC2900E32865 /* To_doApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
